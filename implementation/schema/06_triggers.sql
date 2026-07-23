@@ -166,9 +166,3 @@ CREATE TRIGGER trg_identifier_sync_nic_hash
 BEFORE INSERT OR UPDATE ON public.identifier
 FOR EACH ROW EXECUTE FUNCTION public.trg_identifier_sync_nic_hash();
 
--- ---------------------------------------------------------------------------
--- Chain-of-custody: a sample cannot be re-delivered by the same person on the
--- same day twice (duplicate/erroneous entry guard).
--- ---------------------------------------------------------------------------
-CREATE UNIQUE INDEX uk_chain_of_custody_no_dup_handover
-    ON public.chain_of_custody (sample_id, delivery_date, delivered_by_name);
