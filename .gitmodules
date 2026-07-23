@@ -1,0 +1,6 @@
+[submodule "implementation/frontend"]
+	path = implementation/frontend
+	url = https://github.com/dinithrk/forensic-med-frontend.git
+[submodule "implementation/backend"]
+	path = implementation/backend
+	url = https://github.com/dinithrk/forensic-med-backend.git
