@@ -44,7 +44,9 @@ The reliance on traditional methods introduces several critical vulnerabilities 
 - Report generation: Compiling comprehensive autopsy or court reports by hand is labor-intensive and prone to human error.
 - Evidence tracking: Without an automated system, ensuring a strict chain of custody for physical evidence and media assets is highly difficult.
  
- The general Objective of this system is to design and develop a complete, secure Database System for a Forensic Medical Department to streamline medico-legal processes.
+ The general Objective of this system is to design and develop a complete, secure Database System for a Forensic Medical Department to streamline medico-legal processes. To address these challenges, this project details the design and development of a comprehensive, secure database system tailored specifically for a Forensic Medical Department.
+ 
+The primary standfast goal is to digitize patient demographics, medico-legal examination records, autopsy files, and evidence tracking into a centralized, reliable platform. The methodology involved designing a monolithic system architecture utilizing a Java Spring Boot backend, a React frontend, and a highly normalized PostgreSQL database. Strict Role-Based Access Control (RBAC) and cryptographic security measures were implemented to ensure data isolation and maintain the integrity of legal evidence.
 
 Specific Objectives:
 - To digitize patient demographics and clinical forensic (MLEF) records.
@@ -52,10 +54,9 @@ Specific Objectives:
 - To establish a secure repository for evidence and media assets.
 - To enforce normalization and clear functional dependencies within the database schema.
 
+The resulting system successfully automates administrative workflows, enables the instant querying of historical case files, and facilitates the rapid generation of standardized medical and court reports. This digital transition significantly enhances operational efficiency, data reliability, and forensic confidentiality compared to legacy manual processes.
 
-## Other Sub Topics
 
-.....
 
 ## Links
 
